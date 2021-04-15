@@ -69,7 +69,10 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  #{holiday}: #{supply}"
 
       end
+    end
+
 end
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
@@ -81,5 +84,11 @@ def all_holidays_with_bbq(holiday_hash)
       value.each do |supply|
        if supply == "BBQ"
           answer.push(holiday)
+          answer.push(holiday)
         end
-  
+      end
+    end
+  end
+  answer
+
+  end
